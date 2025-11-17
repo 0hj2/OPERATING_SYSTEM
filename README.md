@@ -15,7 +15,7 @@
   - TCP/IP Socket Programming  
   - Multi-threading (pthread)  
   - I/O multiplexing 구조  
-  - ANSI C 기반 네트워크 프로그래밍  
+  - C 기반 네트워크 프로그래밍  
 
 ---
 
@@ -93,3 +93,5 @@ typedef struct {
 - high/low 판단
 - 정답 시 종료 및 알림
 - 턴 이동 처리
+
+  
