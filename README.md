@@ -74,34 +74,23 @@ typedef struct {
     char room[ROOM_NAME_SIZE];
 } client_t;
 
-### 2)주요 서버 스레드
-✔ handle_clnt()
-클라이언트 메시지 수신
-명령어 처리 (/create, /join, /name, /start 등)
-게임 입력 처리
-
-✔ send_msg_room()
-특정 방(Room) 내 모든 클라이언트에게 메시지 브로드캐스트
-
 ### 2) 주요 서버 스레드
 ✔ handle_clnt()
-
-클라이언트 메시지 수신
-명령어 처리 (/create, /join, /name, /start 등)
-게임 입력 처리
+- 클라이언트 메시지 수신
+- 명령어 처리 (/create, /join, /name, /start 등)
+- 게임 입력 처리
 
 ✔ send_msg_room()
-특정 방(Room) 내 모든 클라이언트에게 메시지 브로드캐스트
+- 특정 방(Room) 내 모든 클라이언트에게 메시지 브로드캐스트
 
 ### 3) 게임 관리 로직
 ✔ start_game()
-
-방에서 게임 시작
-난수 생성
-참여자 턴 초기화
+- 방에서 게임 시작
+- 난수 생성
+- 참여자 턴 초기화
 
 ✔ handle_game_guess()
-유저의 추측값 처리
-high/low 판단
-정답 시 종료 및 알림
-턴 이동 처리
+- 유저의 추측값 처리
+- high/low 판단
+- 정답 시 종료 및 알림
+- 턴 이동 처리
