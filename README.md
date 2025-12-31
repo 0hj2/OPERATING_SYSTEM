@@ -1,4 +1,4 @@
-24-2 운영체제 기말 프로젝트
+25-1 운영체제 기말 프로젝트
 
 # 🗨️ Multi-Room Chatting Program with Turn-Based Up-Down Game  
 > C 기반 Socket Programming / Multi-threading / Chat Server & Client  
